@@ -9,6 +9,26 @@ h1,h2,h3,h4,h5,h6 {
     letter-spacing: 2px;
 }
 
+.line:after {
+    content: '';
+    display: block;
+    width: 46px;
+    height: 3px;
+    background-color: #898989;
+    margin-top: 24px;
+}
+
+
+.line-center:after {
+    content: '';
+    margin: 0 auto;
+    display: block;
+    width: 46px;
+    height: 3px;
+    background-color: #898989;
+    margin-top: 24px;
+}
+
 p{
     color: #81868E;
 }
@@ -27,6 +47,18 @@ p{
 
 .leckerli {    
   font-family: 'LeckerliOne-Regular';
+}
+
+.red-bg{
+    background-color: #E84C3D;
+}
+
+.red-text{
+    color: #E84C3D;
+}
+
+.btn-danger {
+    background-color: #E84C3D !important;
 }
 
 /* header start */
@@ -55,7 +87,8 @@ header .navbar-collapse li:last-of-type {
 
 .index {
     background-size: cover;
-    padding: 376px 0 390px 0;
+    background-position: center center;
+    padding: 176px 0 190px 0;
 }
 
 .index .index-title p {
@@ -63,7 +96,7 @@ header .navbar-collapse li:last-of-type {
 }
 
 .index .scroll {
-    bottom: 80px;
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -76,5 +109,26 @@ header .navbar-collapse li:last-of-type {
 }
 
 .index .scroll p {
+    color: #E84C3D;
+}
+
+
+
+/*about section*/
+
+.about {
+    padding: 110px 0;
+}
+
+.about .container {
+    max-width: 986px;
+}
+
+.about .about-title p {
+    line-height: 24px;
+}
+
+.about .about-title .btn-danger:hover {
+    background-color: #fff !important;
     color: #E84C3D;
 }

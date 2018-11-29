@@ -3,6 +3,16 @@
 
 @media(min-width:576px){
 
+    /*main*/
+    /*index section*/
+
+    .index {
+        padding: 276px 0 290px 0;
+    }
+
+    .index .scroll {
+        bottom: 80px;
+    }
 
 
 
@@ -13,13 +23,25 @@
 
 @media(min-width:768px){
 
+    /*general*/
+    
+    .line-md:after {
+        content: '';
+        display: block;
+        margin: 0;
+        width: 46px;
+        height: 3px;
+        background-color: #898989;
+        margin-top: 24px;
+    }
+
     /*header*/
 
     header .navbar-collapse {
         background-color: transparent;
         border-radius: 0;
     }
-    
+
     header .navbar-collapse li {
         border-bottom: 0;
     }
@@ -31,6 +53,13 @@
 
 @media(min-width:992px){
 
+
+    /*main*/
+    /*index section*/
+
+    .index {
+        padding: 376px 0 390px 0;
+    }
 
 
 
