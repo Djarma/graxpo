@@ -5,6 +5,12 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto-Medium';
+    color: #333B46;
+    letter-spacing: 2px;
+}
+
+p{
+    color: #81868E;
 }
 
 .roboto-light{
@@ -50,4 +56,25 @@ header .navbar-collapse li:last-of-type {
 .index {
     background-size: cover;
     padding: 376px 0 390px 0;
+}
+
+.index .index-title p {
+    letter-spacing: 3px;
+}
+
+.index .scroll {
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.index .scroll-item{
+    width: 23px;
+    height: 38px;
+    border: 1px solid #000;
+    border-radius: 10px;    
+}
+
+.index .scroll p {
+    color: #E84C3D;
 }
