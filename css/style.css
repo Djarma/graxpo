@@ -117,7 +117,7 @@ header .navbar-collapse li:last-of-type {
 /*about section*/
 
 .about {
-    padding: 110px 0;
+    padding: 110px 0 0;
 }
 
 .about .container {
@@ -131,4 +131,40 @@ header .navbar-collapse li:last-of-type {
 .about .about-title .btn-danger:hover {
     background-color: #fff !important;
     color: #E84C3D;
+}
+
+/*service section*/ 
+
+.service {
+    padding: 100px 0;
+}
+
+.service .service-title {
+    max-width: 520px;
+}
+
+.service-item {
+    padding: 30px 30px 30px 50px;
+    border-radius: 10px;
+    border: 3px solid #EBEBEB;
+}
+
+.service-item .service-item-content .content-info{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.service-item .service-item-content .fa {
+    font-size: 45px;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.service-item .service-item-info .line:after {  
+    margin-top: 24px;
+    height: 2px;
+    width: 31px;
 }
