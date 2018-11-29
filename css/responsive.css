@@ -2,29 +2,38 @@
 
 
 @media(min-width:576px){
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
 }
 
 
 @media(min-width:768px){
+
+    /*header*/
+
+    header .navbar-collapse {
+        background-color: transparent;
+        border-radius: 0;
+    }
     
-    
-    
-    
-    
+    header .navbar-collapse li {
+        border-bottom: 0;
+    }
+
+
+
 }
 
 
 @media(min-width:992px){
-    
-   
-    
-    
+
+
+
+
 }
 
 
@@ -32,9 +41,9 @@
 
 
 @media(min-width:1200px){
-    
-    
-    
-    
-    
+
+
+
+
+
 }

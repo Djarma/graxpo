@@ -3,7 +3,7 @@ html {
     font-family: 'OpenSans-Regular';
 }
 
-.roboto-med{
+h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto-Medium';
 }
 
@@ -19,3 +19,35 @@ html {
     font-family: 'Roboto-Regular';
 }
 
+.leckerli {    
+  font-family: 'LeckerliOne-Regular';
+}
+
+/* header start */
+
+
+header .navbar h1 a {
+    font-size: 2rem;
+    color: #E84C3D !important;
+}
+
+header .navbar-collapse {
+    background-color: #E4E2E5;
+    border-radius: 0 0 20px 20px;
+}
+
+header .navbar-collapse li {
+    border-bottom: 1px dotted #E84C3D;
+}
+
+header .navbar-collapse li:last-of-type {
+    border-bottom: 0;
+}
+
+/* main start */
+/*index section*/
+
+.index {
+    background-size: cover;
+    padding: 376px 0 390px 0;
+}
