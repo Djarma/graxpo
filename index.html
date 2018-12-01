@@ -34,26 +34,26 @@
                     </button>
                     <div class="collapse navbar-collapse text-center" id="main-menu">
                         <ul class="navbar-nav ml-auto text-uppercase">
-                            <li class="nav-item active">
+                            <li class="nav-item position-relative active">
                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item position-relative">
                                 <a class="nav-link" href="#about">about</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">service</a>
+                            <li class="nav-item position-relative">
+                                <a class="nav-link" href="#service">service</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">portfolio</a>
+                            <li class="nav-item position-relative">
+                                <a class="nav-link" href="#portfolio">portfolio</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">team</a>
+                            <li class="nav-item position-relative">
+                                <a class="nav-link" href="#team">team</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item position-relative">
                                 <a class="nav-link" href="#">blog</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">contact</a>
+                            <li class="nav-item position-relative">
+                                <a class="nav-link mr-0" href="#contact">contact</a>
                             </li>
                         </ul>
                     </div>
@@ -62,48 +62,53 @@
         </header><!-- header ends -->
         <!-- main start -->
         <main>
-            <!-- index section -->
+            <!-- index start -->
             <section class="index position-relative" style="background-image: url(img/lead.jpg)">
                 <div class="container">
                     <div class="index-title text-center">
                         <h1 class="text-uppercase">hello, we’re prothemers</h1>
                         <p class="lead text-uppercase">fresh premium quality psd template</p>
                     </div>
-                    <div class="scroll position-absolute">
-                        <div class="scroll-item mx-auto mb-1"></div>
+                    <figure class="scroll position-absolute text-center">
+                        <img class="mb-2" src="img/mouse.png" alt=""/>
                         <p class="text-uppercase small">scroll down</p>
-                    </div>
+                    </figure>
                 </div>
-            </section><!-- index section ends -->
-            <!-- about section --> 
+            </section><!-- index ends -->
+            <!-- about start --> 
             <section class="about" id="about">
                 <div class="container">
                     <div class="row text-center text-md-left">
-                        <div class="about-title col-12 col-md-6 mb-5 mb-md-0">
-                            <h4 class="text-uppercase line-center line-md mb-5">about graxpo</h4>
-                            <p class="mb-5">
-                                In gnissimos ducimus qui blanditiis praesentium 
-                                voluptatum deleniti atque corrupti quos dolores
-                                et quas molestias excepturi sint occaecati 
-                                cupiditate non provident, similique sunt in 
-                                culpa qui officia deserunt mollitia animi, id 
-                                est laborum et dolorum fuga. Et harum quidem 
-                                rerum facilis est et expedita distinctio. 
-                            </p>
-                            <a href="#" class="btn btn-danger text-uppercase btn-lg">learn more!</a>
+                        <div class="col-12 col-md-6 mb-5 mb-md-0">
+                            <!-- about title -->
+                            <article class="about-title">
+                                <h4 class="text-uppercase line-center line-md mb-5">about graxpo</h4>
+                                <p class="mb-5">
+                                    In gnissimos ducimus qui blanditiis praesentium 
+                                    voluptatum deleniti atque corrupti quos dolores
+                                    et quas molestias excepturi sint occaecati 
+                                    cupiditate non provident, similique sunt in 
+                                    culpa qui officia deserunt mollitia animi, id 
+                                    est laborum et dolorum fuga. Et harum quidem 
+                                    rerum facilis est et expedita distinctio. 
+                                </p>
+                                <a href="#" class="btn btn-danger text-uppercase btn-lg">learn more!</a>
+                            </article>
                         </div>
-                        <div class="about-content col-12 col-md-6">
-                            <figure>
+                        <div class="col-12 col-md-6">
+                            <!-- about content -->
+                            <figure class="about-content">
                                 <img class="img-fluid" src="img/Browser.jpg" alt=""/>
                             </figure>
                         </div>
                     </div>
                 </div>
-            </section><!-- about section ends --> 
-            <!-- service section -->
-            <section class="service">
+            </section><!-- about ends --> 
+            <!-- service start -->
+            <section class="service" id="service">
                 <div class="container">
-                    <div class="service-title text-center mx-auto">
+                    <!-- service title -->
+                    <div class="service-title text-center mx-auto mb-5">
                         <h4 class="text-uppercase line-center mb-5">what we do</h4>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and 
@@ -113,70 +118,328 @@
                     </div>
                     <!-- service grid system --> 
                     <div class="row">
-                        <div class="service-item col-12 col-md-6">
-                            <div class="row">
-                                <div class="service-item-content col-12 col-sm-4">
-                                    <p class="content-info red-bg d-inline-block position-relative"><span class="fa fa-desktop position-absolute"></span></p>
+                        <div class="col-12 col-lg-6">
+                            <!-- service item -->
+                            <article class="service-item mb-4">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4">
+                                        <!-- service item content -->
+                                        <article class="service-item-content ">
+                                            <p class="content-info red-bg d-inline-block position-relative"><span class="fa fa-desktop position-absolute"></span></p>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <!-- service item info -->
+                                        <aside class="service-item-info">
+                                            <h5 class="text-uppercase line mb-4">ui / ux design</h5>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text 
+                                                thprinting andthe industry's standard 
+                                                dummy text lorem Ipsum is simply dummy
+                                            </p>
+                                        </aside>
+                                    </div>
                                 </div>
-                                <div class="service-item-info col-12 col-sm-8">
-                                    <h5 class="text-uppercase line mb-4">ui / ux design</h5>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text 
-                                        thprinting andthe industry's standard 
-                                        dummy text lorem Ipsum is simply dummy
-                                    </p>
-                                </div>
-                            </div>
+                            </article>
                         </div>
-                        <div class="service-item col-12 col-md-6">
-                            <div class="row">
-                                <div class="service-item-content col-12 col-sm-4">
-                                    <p class="content-info red-bg d-inline-block position-relative"><span class="fa fa-star-o position-absolute"></span></p>
+                        <div class="col-12 col-lg-6">
+                            <!-- service item -->
+                            <article class="service-item mb-4">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4">
+                                        <!-- service item content -->
+                                        <article class="service-item-content ">
+                                            <p class="content-info red-bg d-inline-block position-relative"><span class="fa fa-star-o position-absolute"></span></p>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <!-- service item info -->
+                                        <aside class="service-item-info">
+                                            <h5 class="text-uppercase line mb-4">ui / ux design</h5>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text 
+                                                thprinting andthe industry's standard 
+                                                dummy text lorem Ipsum is simply dummy
+                                            </p>
+                                        </aside>
+                                    </div>
                                 </div>
-                                <div class="service-item-info col-12 col-sm-8">
-                                    <h5 class="text-uppercase line mb-4">ui / ux design</h5>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text 
-                                        thprinting andthe industry's standard 
-                                        dummy text lorem Ipsum is simply dummy
-                                    </p>
-                                </div>
-                            </div>
+                            </article>
                         </div>
-                        <div class="service-item col-12 col-md-6">
-                            <div class="row">
-                                <div class="service-item-content col-12 col-sm-4">
-                                    <p class="content-info red-bg d-inline-block position-relative"><span class="fa fa-mobile position-absolute"></span></p>
+                        <div class="col-12 col-lg-6">
+                            <!-- service item -->
+                            <article class="service-item mb-4">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4">
+                                        <!-- service item content -->
+                                        <article class="service-item-content ">
+                                            <p class="content-info red-bg d-inline-block position-relative"><span class="fa fa-mobile position-absolute"></span></p>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <!-- service item info -->
+                                        <aside class="service-item-info">
+                                            <h5 class="text-uppercase line mb-4">ui / ux design</h5>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text 
+                                                thprinting andthe industry's standard 
+                                                dummy text lorem Ipsum is simply dummy
+                                            </p>
+                                        </aside>
+                                    </div>
                                 </div>
-                                <div class="service-item-info col-12 col-sm-8">
-                                    <h5 class="text-uppercase line mb-4">ui / ux design</h5>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text 
-                                        thprinting andthe industry's standard 
-                                        dummy text lorem Ipsum is simply dummy
-                                    </p>
-                                </div>
-                            </div>
+                            </article>
                         </div>
-                        <div class="service-item col-12 col-md-6">
-                            <div class="row">
-                                <div class="service-item-content col-12 col-sm-4">
-                                    <p class="content-info red-bg d-inline-block position-relative"><span class="fa fa-pencil-square-o position-absolute"></span></p>
+                        <div class="col-12 col-lg-6">
+                            <!-- service item -->
+                            <article class="service-item">
+                                <div class="row">
+                                    <div class="col-12 col-sm-4">
+                                        <!-- service item content -->
+                                        <article class="service-item-content ">
+                                            <p class="content-info red-bg d-inline-block position-relative"><span class="fa fa-pencil-square-o position-absolute"></span></p>
+                                        </article>
+                                    </div>
+                                    <div class="col-12 col-sm-8">
+                                        <!-- service item info -->
+                                        <aside class="service-item-info">
+                                            <h5 class="text-uppercase line mb-4">ui / ux design</h5>
+                                            <p>
+                                                Lorem Ipsum is simply dummy text 
+                                                thprinting andthe industry's standard 
+                                                dummy text lorem Ipsum is simply dummy
+                                            </p>
+                                        </aside>
+                                    </div>
                                 </div>
-                                <div class="service-item-info col-12 col-sm-8">
-                                    <h5 class="text-uppercase line mb-4">ui / ux design</h5>
-                                    <p>
-                                        Lorem Ipsum is simply dummy text 
-                                        thprinting andthe industry's standard 
-                                        dummy text lorem Ipsum is simply dummy
-                                    </p>
-                                </div>
-                            </div>
+                            </article>
                         </div>
                     </div>
                 </div>
-            </section><!-- service section ends -->
-        </main><!-- main start ends -->
+            </section><!-- service ends -->
+            <!-- statistics start -->
+            <section class="statistics" style="background-image: linear-gradient(to right, rgba(232, 76, 61,0.9), rgba(232, 76, 61,0.9)), url(img/statistics.jpg)">
+                <div class="container">
+                    <div class="row text-center text-lg-left">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="statistics-item mb-5 mb-lg-0">
+                                <p class="fa fa-thumbs-o-up text-white"><span class="count roboto-reg ml-3">1580</span></p>
+                                <p class="text-uppercase line line-center text-white roboto-reg">project completed</p>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="statistics-item mb-5 mb-lg-0">
+                                <p class="fa fa-heart-o text-white"><span class="count roboto-reg ml-3">2850</span></p>
+                                <p class="text-uppercase line line-center text-white roboto-reg">people loved</p>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="statistics-item mb-5 mb-lg-0">
+                                <p class="fa fa-star-o text-white"><span class="count roboto-reg ml-3">1500</span></p>
+                                <p class="text-uppercase line line-center text-white roboto-reg">identify earn</p>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="statistics-item mb-5 mb-lg-0">
+                                <p class="fa fa-dot-circle-o text-white"><span class="count roboto-reg ml-3">1430</span></p>
+                                <p class="text-uppercase line line-center text-white roboto-reg">busines donor</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- statistics ends -->
+            <!-- portfolio -->
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <!-- portfolio-title -->
+                    <div class="portfolio-title text-center">
+                        <h4 class="mb-5 text-uppercase line-center">meet our crew</h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and 
+                            typesetting industry been the industry's standard 
+                            dummy text 
+                        </p>
+                    </div>
+                    <div class="row">
+                        <!-- IBN HASAN -->
+                        <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                            <article class="portfolio-item text-center">
+                                <figure class="d-inline-block position-relative">
+                                    <img class="img-fluid" src="img/team-01.jpg" alt=""/>
+                                    <div class="portfolio-hover position-absolute p-3">
+                                        <p class="small text-white roboto-light">
+                                            Hi ! I m Redwan from bangladesh.
+                                            I am a Professional graphic designer
+                                            & expert on print and UI/ UX .
+                                        </p>
+                                        <div class="social position-relative">
+                                            <a href="#" class="fa fa-facebook text-white"></a>
+                                            <a href="#" class="fa fa-linkedin text-white"></a>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <h6 class="text-uppercase roboto-bold">ibn hasan</h6>
+                                <p class="text-uppercase small roboto-reg">ceo</p>
+                            </article>
+                        </div>
+                        <!-- RAF REDWAN -->
+                        <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                            <article class="portfolio-item text-center">
+                                <figure class="d-inline-block position-relative">
+                                    <img class="img-fluid" src="img/team-02.jpg" alt=""/>
+                                    <div class="portfolio-hover position-absolute p-3">
+                                        <p class="small text-white roboto-light">
+                                            Hi ! I m Redwan from bangladesh.
+                                            I am a Professional graphic designer
+                                            & expert on print and UI/ UX .
+                                        </p>
+                                        <div class="social position-relative">
+                                            <a href="#" class="fa fa-facebook text-white"></a>
+                                            <a href="#" class="fa fa-linkedin text-white"></a>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <h6 class="text-uppercase roboto-bold">raf redwan</h6>
+                                <p class="text-uppercase small roboto-reg">lead of design</p>
+                            </article>
+                        </div>
+                        <!-- BARI OWALAR MEYE -->
+                        <div class="col-12 col-sm-6 col-lg-3 mb-5 mb-lg-0">
+                            <article class="portfolio-item text-center">
+                                <figure class="d-inline-block position-relative">
+                                    <img class="img-fluid" src="img/team-03.jpg" alt=""/>
+                                    <div class="portfolio-hover position-absolute p-3">
+                                        <p class="small text-white roboto-light">
+                                            Hi ! I m Redwan from bangladesh.
+                                            I am a Professional graphic designer
+                                            & expert on print and UI/ UX .
+                                        </p>
+                                        <div class="social position-relative">
+                                            <a href="#" class="fa fa-facebook text-white"></a>
+                                            <a href="#" class="fa fa-linkedin text-white"></a>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <h6 class="text-uppercase roboto-bold">bari owalar meye</h6>
+                                <p class="text-uppercase small roboto-reg">dev</p>
+                            </article>
+                        </div>
+                        <!-- TOFAIL AHMED --> 
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <article class="portfolio-item text-center">
+                                <figure class="d-inline-block position-relative">
+                                    <img class="img-fluid" src="img/team-04.jpg" alt=""/>
+                                    <div class="portfolio-hover position-absolute p-3">
+                                        <p class="small text-white roboto-light">
+                                            Hi ! I m Redwan from bangladesh.
+                                            I am a Professional graphic designer
+                                            & expert on print and UI/ UX .
+                                        </p>
+                                        <div class="social position-relative">
+                                            <a href="#" class="fa fa-facebook text-white"></a>
+                                            <a href="#" class="fa fa-linkedin text-white"></a>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <h6 class="text-uppercase roboto-bold">tofail ahmed</h6>
+                                <p class="text-uppercase small roboto-reg">akamla</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- portfolio ends -->
+            <!-- subscribe --> 
+            <section class="subscribe" style="background-image: linear-gradient(to right, rgba(232, 76, 61,0.9), rgba(232, 76, 61,0.9)), url(img/subscribe.jpg)">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6">
+                            <!-- subscribe title -->
+                            <article class="subscribe-title mb-5 mb-md-0">
+                                <h4 class="text-uppercase line text-white mb-4">subscribe to update</h4>
+                                <p class="text-white">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipisicing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua.
+                                    Ut enim ad minim veniam
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="input-group ml-lg-auto">
+                                <input type="email" name="email" class="form-control btn-outline-light p-4 rounded-0" placeholder="Enter email address" aria-describedby="button-subscribe">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-light text-uppercase rounded-0 px-4 roboto-bold" type="button" id="button-subscribe">subscribe</button>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </section><!-- subscribe ends --> 
+            <!-- contact start -->
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="contact-info mx-auto text-center">
+                        <h4 class="text-uppercase line-center mb-5">get in touch with us</h4>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and 
+                            typesetting industry been the industry's standard 
+                            dummy text 
+                        </p>
+                    </div>
+                    <div class="row align-items-center">
+                        <!-- contact form --> 
+                        <div class="col-12 col-md-7 mb-5 ">
+                            <form action="">
+                                <div class="form-row">
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control btn-outline-info p-4" placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control btn-outline-info p-4" placeholder="Email Address">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control btn-outline-info p-4" placeholder="Message" rows="8"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-danger text-uppercase">submit now</button>
+                            </form>
+                        </div>
+                        <!-- contact aside --> 
+                        <div class="col-12 col-md-5">
+                            <aside class="contact-aside pl-lg-5">
+                                <!-- address --> 
+                                <div class="address mb-4">
+                                    <p class="fa fa-map-marker mr-3 red-text d-inline-block"></p>
+                                    <address class="d-inline-block">65,Prothemers Tower-1200 D <br> Block Comilla, Bangladesh</address>
+                                </div>
+                                <!-- email --> 
+                                <div class="email mb-4">
+                                    <p class="fa fa-envelope-o mr-3 red-text d-inline-block"></p>
+                                    <a href="mailto:Info@Addaxx.com">Info@Addaxx.com</a>
+                                </div>
+                                <!-- phone --> 
+                                <div class="phone mb-4">
+                                    <p class="fa fa-phone mr-3 red-text d-inline-block"></p>
+                                    <a href="tel:+88055823582">+8805-5823-582</a>
+                                </div>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </section> <!-- contact ends -->
+        </main><!-- main ends -->
+        <!-- footer start -->
+        <footer>
+            <div class="container text-center">
+                <p class="text-white">Copyright Redwan . All Rights Reserved</p>
+            </div>
+        </footer><!-- footer ends -->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery.js" type="text/javascript"></script>

@@ -24,7 +24,7 @@
 @media(min-width:768px){
 
     /*general*/
-    
+
     .line-md:after {
         content: '';
         display: block;
@@ -61,7 +61,11 @@
         padding: 376px 0 390px 0;
     }
 
-
+    /*statistics*/
+    
+    .statistics .statistics-item p.line-center:after {
+        margin: 24px 0;
+    }
 
 }
 
