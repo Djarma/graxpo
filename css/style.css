@@ -196,33 +196,29 @@ header .navbar-nav li a{
     padding: 30px 30px 30px 50px;
     border-radius: 10px;
     border: 3px solid #EBEBEB;
+    transition: 0.4s linear;
 }
 
 .service-item:hover {
     background-color: #E84C3D;
-    transition: 0.4s linear;
     border-color: #E84C3D;
 }
 
 .service-item:hover .content-info {
     background-color: #fff;
-    transition: 0.4s linear;
 }
 
 .service-item:hover .fa {
     color: #E84C3D !important;
-    transition: 0.4s linear;
 }
 
 .service-item:hover .service-item-info h5,
 .service-item:hover .service-item-info p {
     color: #fff !important;
-    transition: 0.4s linear;
 }
 
 .service-item:hover .service-item-info .line:after {
     background-color: #fff;
-    transition: 0.4s linear;
 }
 
 .service-item .service-item-content .content-info{
@@ -293,11 +289,14 @@ header .navbar-nav li a{
     bottom: 11px;
     left: 11px;
     line-height: 24px;
-    display: none;
+    opacity: 0;
+    transition: opacity 0.4s linear !important;
 }
 
+
+
 .portfolio figure:hover .portfolio-hover {
-    display: block;
+    opacity: 100;
 }
 
 
